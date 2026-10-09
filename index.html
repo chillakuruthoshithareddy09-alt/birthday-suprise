@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100b16">
+  <meta name="description" content="A little universe made for one very special human.">
+  <title>Our Little Universe — A Birthday Story</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div id="stars" class="stars" aria-hidden="true"></div>
+
+  <main>
+    <section id="gate" class="gate-screen" aria-labelledby="gate-title">
+      <div class="gate-card">
+        <p class="eyebrow"><span class="tiny-star">✦</span> A PRIVATE LITTLE UNIVERSE</p>
+        <div class="orbit-mark" aria-hidden="true"><span>✧</span><i></i></div>
+        <h1 id="gate-title">Some memories deserve<br>their own <em>little universe.</em></h1>
+        <p class="gate-copy">A tiny world made for you, and only you.<br>Enter the date our story began.</p>
+        <form id="unlock-form">
+          <label class="sr-only" for="password">Our special date</label>
+          <input id="password" name="password" type="password" inputmode="numeric" autocomplete="off"
+            placeholder="Our special date" aria-describedby="password-hint password-error" required>
+          <p id="password-hint" class="input-hint">A little date you'll remember ♡</p>
+          <p id="password-error" class="error-message" role="alert" hidden>Not quite, try our special date again.</p>
+          <button class="button button-primary unlock-button" type="submit">Unlock our world <span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="gate-foot">MADE WITH LOVE · JUST FOR YOU</p>
+      </div>
+    </section>
+
+    <div id="site" class="site-shell" hidden>
+      <header class="topbar">
+        <a href="#home" class="wordmark" aria-label="Our Little Universe home"><span class="wordmark-icon">✧</span> our little universe</a>
+        <nav aria-label="Main navigation">
+          <a href="#memories">Memories</a><a href="#letter">A letter</a>
+          <button id="lock-button" class="lock-link" type="button">Lock again <span aria-hidden="true">⌑</span></button>
+        </nav>
+      </header>
+
+      <section id="home" class="hero section-wrap">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="tiny-star">✦</span> A CELEBRATION OF YOU</p>
+          <h1>Happy Birthday,<br><em>My Favourite Human.</em></h1>
+          <p class="hero-subtitle">To the person who turned ordinary moments into memories I will always treasure.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#memories">Enter Our Little World <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#letter">A little something for you <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="date-notes">
+            <div><span class="date-label">YOUR DAY</span><strong>10 October 2006</strong></div>
+            <span class="date-divider" aria-hidden="true"></span>
+            <div><span class="date-label">OUR STORY BEGAN</span><strong>26 August 2025</strong></div>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="Decorative birthday illustration">
+          <div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+          <div class="art-glow"></div>
+          <div class="art-center"><span class="art-spark">✦</span><span class="art-heart">♡</span><span class="art-caption">you make<br>life softer</span></div>
+          <span class="float-star star-a">✧</span><span class="float-star star-b">✦</span><span class="float-star star-c">·</span>
+          <p class="art-note">a thousand little reasons<br>to celebrate you</p>
+        </div>
+        <div class="scroll-cue"><span></span> SCROLL TO WANDER</div>
+      </section>
+
+      <section class="intro-band">
+        <p class="eyebrow">A NOTE FROM MY HEART</p>
+        <p class="intro-quote">“Some people arrive quietly and somehow make the whole world feel a little more like home.”</p>
+        <p class="intro-small">This is a collection of moments, words, and wishes — saved here for you.</p>
+      </section>
+
+      <section id="memories" class="memory-section section-wrap">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">CHAPTER ONE · THE GOOD STUFF</p><h2>A wall of <em>little forever.</em></h2></div>
+          <p class="section-description">Every picture holds a feeling. Replace these placeholders with the moments that make our story ours.</p>
+        </div>
+        <div id="memory-grid" class="memory-grid"></div>
+        <p class="gallery-note"><span>✧</span> More memories can always find a home here.</p>
+      </section>
+
+      <section class="wish-section">
+        <div class="wish-inner reveal">
+          <p class="eyebrow">A WISH FOR YOUR NEXT CHAPTER</p>
+          <h2>May this year be<br><em>kind to your heart.</em></h2>
+          <p>May you find reasons to laugh until your cheeks hurt, courage for the things that scare you, people who see the magic in you, and quiet moments that remind you how loved you are.</p>
+          <div class="wish-signature">always cheering for you <span>♡</span></div>
+        </div>
+      </section>
+
+      <section id="letter" class="letter-section section-wrap">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">CHAPTER TWO · WORDS I MEAN</p><h2>A letter, <em>from me to you.</em></h2></div>
+          <p class="section-description">Some things deserve more than a quick message. These words are yours to keep.</p>
+        </div>
+        <article class="letter-paper reveal">
+          <div class="letter-topline"><span>FOR MY FAVOURITE HUMAN</span><span>10 · 10 · ALWAYS</span></div>
+          <div class="letter-flourish" aria-hidden="true">✧</div>
+          <p class="letter-salutation">To my best friend,</p>
+          <p>First of all, happy birthday. I hope today reminds you how special you are, not just to the people around you, but simply as the person you are. You deserve the kind of happiness that feels peaceful, the kind of love that feels safe, and a year filled with little things that make you genuinely smile.</p>
+          <p>I’m so grateful that our paths crossed. Since 26 August 2025, you’ve become part of a chapter of my life that I want to remember with a full heart. Thank you for the conversations, the laughs, the little moments, and for being someone I get to call my best friend. Even ordinary days can become memories worth keeping when you’re part of them.</p>
+          <p>There’s also something I want to say honestly. I’m sorry for every moment I may have hurt you — through words I should have chosen more carefully, misunderstandings, mistakes, or times when I didn’t understand what you were feeling. I know that having good intentions doesn’t erase the impact of something hurtful. If I made you feel unheard, unappreciated, or upset, I’m genuinely sorry.</p>
+          <p>I can’t promise I’ll never make a mistake, but I can promise to keep learning. I want to listen more carefully, communicate more kindly, understand your feelings instead of making assumptions, and take responsibility when I get things wrong. Your feelings matter, and you never owe me instant forgiveness. Take whatever time you need; I respect that.</p>
+          <p>More than anything, I hope we get to make many more memories — more laughter, spontaneous adventures, silly conversations, honest talks, and moments we’ll look back on years from now. I hope this next year brings you beautiful surprises, growth, comfort, and every good thing your heart has been hoping for.</p>
+          <p>Thank you for being you, and for being part of my story. I’m really glad our story began.</p>
+          <p class="letter-closing">Happy Birthday, my favourite human. Thank you for being a part of my story. I'm sorry for the moments I hurt you, and I'll keep trying to be a better friend. Here's to the memories we've made and all the beautiful ones still waiting for us.</p>
+          <p class="letter-signoff">With all my love,<br><em>Your bestie ♡</em></p>
+          <div class="letter-stamp" aria-hidden="true">WITH<br>LOVE<br><span>♡</span></div>
+        </article>
+      </section>
+
+      <section class="finale-section">
+        <div class="finale-stars" aria-hidden="true">✦　·　✧　·　✦</div>
+        <p class="eyebrow">END OF THIS PAGE · NOT OUR STORY</p>
+        <h2>To all the moments<br><em>we haven't lived yet.</em></h2>
+        <p>Whatever this next year brings, I hope it brings you closer to the life you dream of — and leaves room for a few more memories with me.</p>
+        <a class="button button-outline" href="#home">Back to the beginning ↑</a>
+      </section>
+
+      <footer class="footer">
+        <a href="#home" class="wordmark"><span class="wordmark-icon">✧</span> our little universe</a>
+        <p>made for you, with all my heart <span>♡</span></p>
+        <button id="footer-lock-button" type="button" class="footer-lock">Lock this little world</button>
+      </footer>
+    </div>
+  </main>
+  <script src="memories.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

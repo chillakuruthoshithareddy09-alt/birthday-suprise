@@ -1,0 +1,1 @@
+Place your JPG, PNG, or WebP photos in this folder, then reference them in ../memories.js (e.g. assets/photos/first-memory.jpg).
